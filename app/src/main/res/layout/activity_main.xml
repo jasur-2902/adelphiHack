@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/mTakePicture"
+        android:layout_width="100dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:background="@drawable/camera_button_click"
+        android:contentDescription="@string/take_picture_button_description" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/take_a_picture"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <ImageButton
+        android:id="@+id/mCapture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:background="@drawable/gallery_button_click"
+        android:contentDescription="@string/select_from_gallery_button_description" />
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_from_gallery"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
